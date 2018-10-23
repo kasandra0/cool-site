@@ -2,21 +2,29 @@ header {
   width: 100%;
   background-color: rgb(18, 28, 114, 0.822);
   color: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 footer {
   width:100%;
   background-color:rgb(18, 28, 114, 0.822);
 }
+
 #container{
   width: 100%;
   background-color: white;
+  height: 400px;
 }
 #leftbox{
-  width:40%;
+  width:60%;
+  height:100%;
   background-color: aquamarine;
+  text-align: center;
+  float: left;
 }
 #rightbox{
-  width: 50%;
+  width: 38%;
   background-color: bisque;
   float:right;
 }
