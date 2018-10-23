@@ -1,3 +1,22 @@
 header {
-  background-color: red;
+  width: 100%;
+  background-color: rgb(18, 28, 114, 0.822);
+  color: white;
+}
+footer {
+  width:100%;
+  background-color:rgb(18, 28, 114, 0.822);
+}
+#container{
+  width: 100%;
+  background-color: white;
+}
+#leftbox{
+  width:40%;
+  background-color: aquamarine;
+}
+#rightbox{
+  width: 50%;
+  background-color: bisque;
+  float:right;
 }
