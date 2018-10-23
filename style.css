@@ -1,14 +1,21 @@
 header {
   width: 100%;
+  height: 60px;
   background-color: rgb(18, 28, 114, 0.822);
   color: white;
   text-align: center;
+  padding: 30px;
   font-family: 'Times New Roman', Times, serif;
 
 }
+
 footer {
-  width:100%;
-  background-color:rgb(18, 28, 114, 0.822);
+  width: 100%;
+  display: inline-block;
+  height: 100px;
+  margin-top: 50px;
+  bottom: 0;
+  background-color: rgb(18, 28, 114, 0.822);
 }
 
 #container{
@@ -20,11 +27,15 @@ footer {
   width:60%;
   height:100%;
   background-color: aquamarine;
-  text-align: center;
   float: left;
 }
 #rightbox{
   width: 38%;
   background-color: bisque;
   float:right;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
